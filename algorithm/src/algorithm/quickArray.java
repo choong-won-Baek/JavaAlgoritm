@@ -5,7 +5,7 @@ public class quickArray { //재귀로 풀기
 		if( start >= end) {//배열요소가 하나면 리
 			return;
 		}
-		int pivot = start; //기준 
+		int pivot = start; //기준 nnnnn
 		int left = start+1;// 기준 바로 다
 		int right = end;// 배열 
 		
