@@ -1,6 +1,6 @@
 package algorithm;
 import java.util.*;
-public class binarySearch {/*
+public class binarySearch {
 public static int binary(int[] arr, int target, int start, int end) {
 	while(start<=end) {
 		int mid = (start+end)/2;
@@ -24,23 +24,7 @@ public static void main(String[] args) {
 	}
 	target=scanner.nextInt();
 	System.out.print(binary(arr,target, 0, count-1));
-	
+    
 
-}*/
-	public static void main(String[] args) {
-	Queue<Integer> q = new LinkedList<>();
-	
-	q.offer(5);
-	q.offer(3);
-	q.offer(3);
-	q.offer(2);
-	q.poll();
-	q.offer(1);
-	q.poll();
-	
-	while(!q.isEmpty()) {
-		System.out.print(q.poll()+" ");
-	}
-	 
-	}
+}
 }
