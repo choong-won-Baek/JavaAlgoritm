@@ -8,6 +8,7 @@ public class inflearn0402 {
 		for(char i : a.toCharArray()) {
 			map1.put(i , map1.getOrDefault(i,0)+1);
 		}
+		/*
 		HashMap<Character, Integer> map2 = new HashMap<>();
 		for(char i : b.toCharArray()) {
 			map2.put(i , map2.getOrDefault(i,0)+1);
@@ -23,7 +24,12 @@ public class inflearn0402 {
 				break;
 			}
 		}
-		
+		*/
+	 for(char i : b.toCharArray()) {
+		 if(!map1.containsKey(i) || map1.get(i)==0) return "NO";
+			 map1.put(i, map1.get(i)-1);
+		 
+	 }
 		
 		return answer;
 	}
