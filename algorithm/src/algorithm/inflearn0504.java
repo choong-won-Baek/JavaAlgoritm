@@ -19,7 +19,7 @@ public class inflearn0504 {
 				 st.push(st.pop()/p1);
 			 }
 		  }
-	  return st.pop();
+	  return st.pop(); 
 	  }
 	
 	
