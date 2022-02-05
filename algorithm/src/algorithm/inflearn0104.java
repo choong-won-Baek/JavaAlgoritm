@@ -2,6 +2,7 @@ package algorithm;
 import java.util.*;
 
 public class inflearn0104 {
+	//N개의 단어가 주어지면 각 단어를 뒤집어 출력하는 프로그램을 작성하세요.
 	public static ArrayList<String> solution(String[] in) {
 		ArrayList<String> answer = new ArrayList<>();
 	 
