@@ -1,6 +1,6 @@
 package algorithm;
 import java.util.*;
-
+//N개의 정수를 입력받아, 자신의 바로 앞 수보다 큰 수만 출력하는 프로그램을 작성하세요
 public class inflearn0201 {
 	
 	public static ArrayList<Integer> solution(int n, int[] arr){
