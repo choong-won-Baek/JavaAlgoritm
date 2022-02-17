@@ -25,7 +25,7 @@ public class inflearnDFS {
 		
 	}
  public static void main(String[] args) {
-	 inflearnDFS tree = new inflearnDFS(); //root를 사용하기 위해서 
+	 inflearnDFS tree = new inflearnDFS(); //root를 사용하기 위해서 참조 
 	 tree.root = new Node(1);
 	 tree.root.lt = new Node(2);
 	 tree.root.rt = new Node(3);
