@@ -1,5 +1,6 @@
 package algorithm;
 import java.util.*;
+//오름차순으로 정렬이 된 두 배열이 주어지면 두 배열을 오름차순으로 합쳐 출력하는 프로그램을 작성하세요.
 public class inflearn0301 {
 	public static ArrayList<Integer> solution(int[] a, int[] b) {
 	/*	int len = a.length+b.length;
